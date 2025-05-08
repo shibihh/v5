@@ -80,10 +80,7 @@ module.exports = {
                 ➡️ **${lang.supportDescriptionTitle}:**
                 - ${lang.discord} - ${supportServerLink}
                 
-                ➡️ **${lang.followUsOn}:**
-                - ${lang.github} - ${githubLink}
-                - ${lang.replit} - ${replitLink}
-                - ${lang.youtube} - ${youtubeLink}
+                
             `)
             .setImage(lang.supportImageURL)
             .setTimestamp();
