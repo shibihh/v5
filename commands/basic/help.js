@@ -16,9 +16,9 @@ module.exports = {
         
         if (interaction.isCommand && interaction.isCommand()) {
      
-            const BOT_ICON = "https://cdn.discordapp.com/emojis/1334648756649590805.png";
+            const BOT_ICON = "https://cdn.discordapp.com/attachments/1292572920064901151/1364647225925435610/destiny_new_logo-removebg-preview.png?ex=680a6e44&is=68091cc4&hm=0c9d7704bafe230fa1fe6640838251fd5c9eb4ae40e300ed0a538aadcb76bba7&";
             const EMBED_COLOR = "#5865F2"; 
-            const FOOTER_TEXT = "All In One | The Discord Operating System • Created by GlaceYT";
+            const FOOTER_TEXT = "All In One Discord bot • Created by DESTINY TEAM";
             const COMMANDS_DIR = path.join(__dirname, '../../commands');
             const EXCESS_COMMANDS_DIR = path.join(__dirname, '../../excesscommands');
 
@@ -202,7 +202,7 @@ module.exports = {
                     .setAuthor({
                         name: page.author.name,
                         iconURL: BOT_ICON,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/uc-1111272495497101372"
                     })
                     .setImage(helpBanner)
                     .setFooter({ text: `${FOOTER_TEXT} • Page ${currentPage + 1}/${currentSet.length}` })
@@ -378,7 +378,7 @@ module.exports = {
                 .setAuthor({
                     name: "Command Error",
                     iconURL: cmdIcons.dotIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/uc-1111272495497101372"
                 })
                 .setDescription('> ⚠️ This command can only be used as a slash command!\n> Please use `/help` instead.')
                 .setFooter({ text: 'All In One Bot • Error' })
